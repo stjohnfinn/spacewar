@@ -1,0 +1,44 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Courier Prime";
+  src: url("../assets/fonts/CourierPrime.ttf");
+}
+body {
+  font-family: "Courier Prime";
+  background-color: rgb(5, 5, 5);
+  color: white;
+  position: relative;
+  width: 900px;
+  height: 600px;
+}
+
+nav {
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 60px;
+}
+
+#byline {
+  font-size: 0.45rem;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  padding: 0.25rem;
+}
+
+/*# sourceMappingURL=index.css.map */
