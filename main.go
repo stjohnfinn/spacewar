@@ -17,11 +17,12 @@ func main() {
 
 	// Create application with options
 	err := wails.Run(&options.App{
-		Title:     "SPACEWAR",
-		MaxWidth:  900,
-		MaxHeight: 600,
-		MinWidth:  900,
-		MinHeight: 600,
+		Title:         "SPACEWAR",
+		MaxWidth:      900,
+		MaxHeight:     600,
+		MinWidth:      900,
+		MinHeight:     600,
+		DisableResize: true,
 		AssetServer: &assetserver.Options{
 			Assets: assets,
 		},
